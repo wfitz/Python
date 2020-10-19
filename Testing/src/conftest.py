@@ -23,8 +23,8 @@ import pytest
 #@pytest.fixture(autouse=True)
 #def stub_database_entity():
 #    """Patch any calls to entity database and return a sample"""
-#    with patch('src.examples.stub_sample.query_database', return_value=sample_entity) as stubexmp:
-#        yield stubexmp
+#    with patch('src.examples.stub_sample.query_database', return_value=sample_entity) as qdb:
+#        yield qdb
 #
 #        
 #@pytest.fixture()
